@@ -13,6 +13,17 @@ while uren < 12:
         print(str(uren) + ' pm')
     uren += 1  
 
+#De derde opdracht.
 getal = 20
+while getal <= 50:
+    print(getal)
+    getal += 1
 
-
+deDag = input('Type een dag in:')
+while deDag > '':
+    if deDag == 'maandag':
+        print('hello')
+        break
+    else:
+        print('Ongeldige invoer')
+        break
