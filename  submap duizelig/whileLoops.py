@@ -19,11 +19,17 @@ while getal <= 50:
     print(getal)
     getal += 1
 
-deDag = input('Type een dag in:')
-while deDag > '':
-    if deDag == 'maandag':
-        print('hello')
-        break
-    else:
-        print('Ongeldige invoer')
-        break
+
+#eenDag = input('Type een dag in?')
+
+#De vijfde opdracht.
+while input('lust jij kaas?\n') != 'quit':
+    print('Hello')
+print('Je hebt quit gezegd')
+
+
+#De zesde opdracht.
+i = 50
+while i <= 1000:
+  print (i)
+  i += 1
